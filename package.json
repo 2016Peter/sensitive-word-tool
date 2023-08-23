@@ -2,6 +2,7 @@
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "exports": {
     "./package.json": "./package.json",
     ".": {
@@ -10,7 +11,7 @@
       "default": "./lib/index.cjs.js"
     }
   },
-  "name": "sensitive-word-tool",
+  "name": "sensitive-word-tool-CocosCreator",
   "displayName": "sensitive-word-tool",
   "description": "基于 DFA 算法实现，非常轻巧完备的 JavaScript 敏感词处理库🚀🚀🚀",
   "version": "1.1.9",
